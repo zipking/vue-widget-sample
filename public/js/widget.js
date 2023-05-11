@@ -105,7 +105,7 @@
     }
     // Opening the vue app with all the details
     window.open(
-      `https://vuewidget.herokuapp.com/?firstname=${form["firstname"].value}&lastname=${form["lastname"].value}&email=${form["email"].value}&phone=${form["phone"].value}`,
+      `https://goldfish-app-zl2r3.ondigitalocean.app/?firstname=${form["firstname"].value}&lastname=${form["lastname"].value}&email=${form["email"].value}&phone=${form["phone"].value}`,
     );
   }
 })();

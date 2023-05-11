@@ -2,9 +2,9 @@
 (function(w, d, link, script, p) {
   window.onload = function() {
     // Load css
-    var css = "https://vuewidget.herokuapp.com/css/widget.css";
+    var css = "https://goldfish-app-zl2r3.ondigitalocean.app/css/widget.css";
     // Load js
-    var js = "https://vuewidget.herokuapp.com/js/widget.js";
+    var js = "https://goldfish-app-zl2r3.ondigitalocean.app/js/widget.js";
 
     link = d.createElement("link");
     link.rel = "stylesheet";
