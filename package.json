@@ -4,13 +4,15 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "start": "serve -s _static -l tcp://0.0.0.0:${PORT:-8080} -n",
+    "build": "vue-cli-service build --dest _static",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "country-state-city": "^1.0.5",
     "element-ui": "^2.14.1",
+    "serve": "^14.2.0",
     "vue": "^2.6.11",
     "vue-custom-element": "^3.2.14",
     "vue-router": "^3.2.0",
